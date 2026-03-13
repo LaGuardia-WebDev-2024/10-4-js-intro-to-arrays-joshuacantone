@@ -8,6 +8,15 @@ setup = function() {
     text("🍽", i, 370)
   }
 
+  var glorb = ["apple", "banana", "tomato"];
+
+  fill(255, 0, 0);
+  text("My Top" + glorb.length + "Favorite Fruits", 10, 50);
+
+  text(glorb[0],10, 100); 
+  text(glorb[1],10, 150); 
+  text(glorb[2],10, 200); 
+
 
 };
 
